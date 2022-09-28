@@ -1,0 +1,15 @@
+問1 Switch3 4097 1番値が小さいため
+
+問2 Switch1  役割 F0/1＝DP 理由 対向ポートがDPだからDP
+                 F0/2＝RP　　　コストが最小だからDP
+　
+    Switch2 　　　F0/1＝RP     コストが最小だからRP
+                 F0/2＝BP　　　最後まで残ったポートがBP
+
+
+    Switch3　　　　F0/1＝DP     ルートブリッジのため
+                 F0/2＝DP     ルートブリッジのため
+
+
+    Switch4      F0/1＝RP     コストが最小だからRP
+                 F0/2＝DP     対向ポートがRPだからDP
