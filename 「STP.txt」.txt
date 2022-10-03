@@ -8,8 +8,8 @@
 
 
     Switch3　　　　F0/1＝DP     ルートブリッジのため
-                 F0/2＝DP     ルートブリッジのため
+                 E0/2＝DP     ルートブリッジのため
 
 
-    Switch4      F0/1＝RP     コストが最小だからRP
-                 F0/2＝DP     対向ポートがRPだからDP
+    Switch4      F0/1＝DP     コストが最小だからRP
+                 E0/2＝RP     対向ポートがRPだからDP
